@@ -9,6 +9,12 @@
   </head>
 
   <body>
+    <header>
+      <ul>
+        <li><%= link_to 'home', root_path %></li>
+        <li><%= link_to 'about', about_url %></li>
+      </ul>
+    </header>
     <%= yield %>
   </body>
 </html>
